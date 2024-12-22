@@ -14,8 +14,7 @@ def calculator():
             if num2 == 0:
                 print("Cannot divide by zero.")
                 return
-            else:
-                result = num1 / num2
+            result = num1 / num2
         case _:
             print("Invalid operator")
             return
